@@ -160,7 +160,6 @@ header {
 .header__logo img {
     width: 100px;
 }
-
 .header__menu {
     gap: 1rem;
 }
@@ -172,18 +171,52 @@ header {
 .header__menu li a:hover {
     color: var(--primary-color);
 }
-
 header .right {
     gap: 1rem;
 }
-
 .menu-btn {
     display: none;
     font-size: 1.2rem;
     cursor: pointer;
 }
-/* ABOUT */
 
+/* HERO */
+#hero {
+    min-height: 100vh;
+}
+
+.hero__content {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero__content h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+.hero__content p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+.hero__img {
+    width: 60%;
+}
+/* ABOUT */
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.feature {
+    padding: 2rem;
+    border-radius: 8px;
+    border: 2px solid var(--color);
+}
 /* SERVICES */
 
 /* Projects */
