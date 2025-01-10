@@ -5,8 +5,8 @@
 :root {
     --primary-color: #c04ae2;
     --secondary-color: #111111;
-    --primary-font: 'Poppins', sans-serif;
-    --secondary-font: 'Overpass', sans-serif;
+    --primary-font: "Poppins", sans-serif;
+    --secondary-font: "Overpass", sans-serif;
 }
 
 /* RESET DEFAULT STYLES */
@@ -98,7 +98,6 @@ h6 {
 }
 
 .btn-secondary {
-
     border: 1px solid var(--primary-color);
 }
 
@@ -130,8 +129,6 @@ h6 {
     margin-left: auto;
 }
 
-
-
 /* GLOBAL STYLES */
 
 html {
@@ -151,63 +148,71 @@ section {
     position: relative;
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
-
 }
 
 /* HEADER */
+header {
+    padding: 1rem 0;
+    width: 100%;
+    position: absolute;
+    z-index: 100;
+}
+.header__logo img {
+    width: 100px;
+}
 
+.header__menu {
+    gap: 1rem;
+}
+.header__menu li a {
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+.header__menu li a:hover {
+    color: var(--primary-color);
+}
 
+header .right {
+    gap: 1rem;
+}
+
+.menu-btn {
+    display: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
 /* ABOUT */
-
 
 /* SERVICES */
 
-
 /* Projects */
-
 
 /* TEAM */
 
-
 /* TESTIMONIALS */
-
 
 /* CONTACT */
 
-
 /* FOOTER */
-
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
-
     /* GLOBAL */
 
-    
     /* HEADER */
-
 
     /* HERO */
 
-
     /* ABOUT */
-
 
     /* PROJECTS */
 
-
     /* TEAM */
-
 
     /* TESTIMONIALS */
 
-
     /* CONTACT */
 
-
     /* FOOTER */
-
-
 }
-
-
