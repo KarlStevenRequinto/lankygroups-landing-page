@@ -217,6 +217,18 @@ header .right {
     border-radius: 8px;
     border: 2px solid var(--color);
 }
+
+.feature__icon {
+    font-size: 2rem;
+    color: var(--color);
+    margin-bottom: 1rem;
+}
+
+.feature__title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
 /* SERVICES */
 
 /* Projects */
